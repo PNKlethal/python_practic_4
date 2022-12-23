@@ -7,4 +7,6 @@ print("<<Бесконечный итератор целых чисел, начи
 n = int(input("Введите целое число:"))
 
 for i in count(n):
+    if i >=10:
+        break
     print(i, end=' ')
